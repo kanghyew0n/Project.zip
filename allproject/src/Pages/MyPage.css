@@ -40,8 +40,5 @@ li {
   border-radius: 100%;
 }
 
-.tweets__mypage {
-  flex: 1 0 80vh;
-  border: 2px solid var(--mypage-component-color);
-  overflow-y: scroll;
+.projects__mypage {
 }

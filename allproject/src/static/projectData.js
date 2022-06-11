@@ -2,7 +2,7 @@ const getParsedDate = (createdAt) => {
   return new Date(createdAt).toLocaleDateString("ko-KR");
 };
 
-const dummyTweets = [
+const projects = [
   {
     id: 1,
     username: "계산기",
@@ -69,4 +69,4 @@ const dummyTweets = [
   },
 ];
 
-export { dummyTweets };
+export { projects };

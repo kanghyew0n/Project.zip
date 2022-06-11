@@ -2,7 +2,7 @@
   color: var(--main-text-color);
 }
 
-.tweets {
+.projects {
   /* flex: 1 0 80vh;
   display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@
 
 /* Tweet 컴포넌트 */
 
-.tweet {
+.project {
   /* display: flex;
   flex-direction: row;
   width: 465px;
@@ -29,25 +29,25 @@
   cursor: pointer;
 }
 
-.tweet:hover {
+.project:hover {
   box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.1);
 }
 
-.tweet__content {
+.project__content {
   flex: 1 0 0;
 }
 
-.tweet__userInfo > .tweet__username {
+.project__userInfo > .project__username {
   color: var(--main-text-color);
   font-weight: 700;
   font-size: var(--large-size);
 }
 
-.tweet__createdAt {
+.project__createdAt {
   color: var(--sub-text-color);
 }
 
-.tweet__message {
+.project__message {
   margin-top: 22px;
   margin-bottom: 10px;
 }
